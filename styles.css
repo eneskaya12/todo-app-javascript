@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1E212D;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin: 1% auto 2%;
+    font-size: 35px;
+    color: #FAF3E0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    text-shadow: 0 0 50px #EABF9F;
+}
+
+main{
+    margin: auto;
+    width: 900px;
+    max-width: 100%;
+}
+
+.adding-todo{
+    background-color: transparent;
+    margin: auto 10px;
+}
+
+.adding-todo form{
+    display: flex;
+    justify-content: center;
+}
+
+.adding-todo form #todo-form-text{
+    font-size: 28px;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: #EABF9F;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.7;
+  }
+
+.adding-todo form #todo-form-add{
+    font-size: 28px;
+    margin: 10px 5px;
+    padding: 3px 20px;
+    background-color: #EABF9F;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+}
+
+.adding-todo form #todo-form-add:hover{
+    opacity: 0.8;
+}
+
+.todo-lists{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-lists h2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 30px;
+    color: #FAF3E0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.todo-lists .things-todo{
+    background-color: #B68973;
+    min-height: 500px;
+    width: 450px;
+    margin: 30px 10px 10px 10px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.todo-lists .things-done{
+    background-color: #B68973;
+    min-height: 500px;
+    width: 450px;
+    margin: 30px 10px 10px 10px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.todos .content{
+    display: flex;
+    justify-content: center;
+    background-color: #EABF9F;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.todos .todo .content i{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.todos .todo .content i:hover{
+    color: rgb(157, 157, 160);
+}
+
+.todos .todo .content .check{
+    margin: 0px 3px 0px 6px;
+    color: #1E212D;
+}
+
+.todos .todo .content .pencil{
+    margin: 0px 6px 0px 6px;
+    color: #1E212D;
+}
+
+.todos .todo .content .disk{
+    margin: 0px 6px 0px 6px;
+    color: #1E212D;
+}
+
+.todos .todo .content .trash{
+    margin: 0px 10px 0px 3px;
+    color: #1E212D;
+}
+
+.todos .todo .content .reply{
+    margin: 0px 3px 0px 6px;
+    color: #1E212D;
+}
+
+.todos .todo .content .todo-text{
+    font-size: 25px;
+    margin: 5px 5px;
+    padding: 3px;
+    width: 98%;
+    background-color: transparent;
+    border-style: none;
+    border-style: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
