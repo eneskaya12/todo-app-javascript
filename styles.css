@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #1E212D;
+    background-color: #0D1B21;
 }
 
 header h1{
@@ -19,7 +19,7 @@ header h1{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 70px;
-    text-shadow: 0 0 50px #EABF9F;
+    text-shadow: 0 0 50px #03A062;
 }
 
 main{
@@ -43,16 +43,17 @@ main{
     margin: 10px 5px;
     padding: 5px 10px;
     width: 100%;
-    background-color: #EABF9F;
-    border-radius: 20px;
+    background-color: transparent;
     border-style: none;
     outline: none;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    border-bottom: 2px solid #03A062;
+    color: #FAF3E0;
 }
 
 ::placeholder {
-    color: black;
+    color: #FAF3E0;
     opacity: 0.7;
   }
 
@@ -60,10 +61,12 @@ main{
     font-size: 28px;
     margin: 10px 5px;
     padding: 3px 20px;
-    background-color: #EABF9F;
-    border-radius: 20px;
+    background-color: transparent;
     font-family: 'Lato', sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
+    border: none;
+    border-bottom: 2px solid #03A062;
+    color: #FAF3E0;
 }
 
 .adding-todo form #todo-form-add:hover{
@@ -85,10 +88,10 @@ main{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: xx-large;
+    border-bottom: 2px solid #03A062;
 }
 
 .todo-lists .things-todo{
-    background-color: #B68973;
     min-height: 500px;
     width: 450px;
     margin: 30px 10px 10px 10px;
@@ -97,7 +100,6 @@ main{
 }
 
 .todo-lists .things-done{
-    background-color: #B68973;
     min-height: 500px;
     width: 450px;
     margin: 30px 10px 10px 10px;
@@ -108,9 +110,9 @@ main{
 .todos .content{
     display: flex;
     justify-content: center;
-    background-color: #EABF9F;
     margin: 5px;
-    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid #03A062;
 }
 
 .todos .todo .content i{
@@ -119,33 +121,49 @@ main{
     align-items: center;
 }
 
-.todos .todo .content i:hover{
-    color: rgb(157, 157, 160);
-}
-
 .todos .todo .content .check{
     margin: 0px 3px 0px 6px;
-    color: #1E212D;
+    color: #FAF3E0;
+}
+
+.todos .todo .content .check:hover{
+    color: #3EC70B;
 }
 
 .todos .todo .content .pencil{
     margin: 0px 6px 0px 6px;
-    color: #1E212D;
+    color: #FAF3E0;
+}
+
+.todos .todo .content .pencil:hover{
+    color: #4D77FF;
 }
 
 .todos .todo .content .disk{
     margin: 0px 6px 0px 6px;
-    color: #1E212D;
+    color: #FAF3E0;
+}
+
+.todos .todo .content .disk:hover{
+    color: #4D77FF;
 }
 
 .todos .todo .content .trash{
     margin: 0px 10px 0px 3px;
-    color: #1E212D;
+    color: #FAF3E0;
+}
+
+.todos .todo .content .trash:hover{
+    color: red;
 }
 
 .todos .todo .content .reply{
     margin: 0px 3px 0px 6px;
-    color: #1E212D;
+    color: #FAF3E0;
+}
+
+.todos .todo .content .reply:hover{
+    color: #A149FA;
 }
 
 .todos .todo .content .todo-text{
@@ -159,4 +177,5 @@ main{
     outline: none;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    color: #FAF3E0;
 }
