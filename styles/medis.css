@@ -1,0 +1,19 @@
+@media (max-width: 990px) {
+
+    header h1{
+        margin: 50px 0px;
+    }
+
+    main{
+        width: auto;
+        margin: 50px 180px 0px;
+    }
+
+    .todo-lists{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
