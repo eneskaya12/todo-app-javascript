@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>To-do App</title>
+    <script
+      src="https://kit.fontawesome.com/160edd8076.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <link rel="icon" href="./img/pencil.png" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>To-do App</title>
-  <script src="https://kit.fontawesome.com/160edd8076.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles/styles.css">
-  <link rel="stylesheet" href="./styles/medis.css">
-  <link rel="icon" href="./img/pencil.png">
-</head>
-
-<body>
-  <header>
-    <h1>ToDo App ✏️</h1>
-  </header>
-  <main>
-    <section class="adding-todo">
-      <form id="todo-form" action="index.html" method="post">
-        <input id="todo-form-text" type="text" placeholder="What do you want to do?">
-        <input id="todo-form-add" type="submit" value="Add">
-      </form>
-    </section>
-    <section class="todo-lists">
-      <div class="things-todo">
-        <h2>To do</h2>
-        <div id="todos-to-do" class="todos">
-          <!-- <div class="todo">
+  <body>
+    <header>
+      <h1>ToDo App ✏️</h1>
+    </header>
+    <main>
+      <section class="adding-todo">
+        <form id="todo-form" action="index.html" method="post">
+          <input
+            id="todo-form-text"
+            type="text"
+            placeholder="What do you want to do?"
+          />
+          <input id="todo-form-add" type="submit" value="Add" />
+        </form>
+      </section>
+      <section class="todo-lists">
+        <div class="things-todo">
+          <h2>To do</h2>
+          <div id="todos-to-do" class="todos">
+            <!-- <div class="todo">
             <div class="content">
               <i class="fas fa-check check"></i>
               <input class="todo-text" type="text" placeholder="todo 1" readonly>
@@ -39,12 +45,12 @@
               <i class="fas fa-trash-can trash"></i>
             </div>
           </div> -->
+          </div>
         </div>
-      </div>
-      <div class="things-done">
-        <h2>Done</h2>
-        <div id="todos-done" class="todos">
-          <!-- <div class="todo">
+        <div class="things-done">
+          <h2>Done</h2>
+          <div id="todos-done" class="todos">
+            <!-- <div class="todo">
             <div class="content">
               <i class="fas fa-reply reply"></i>
               <input class="todo-text" type="text" placeholder="done 1" readonly>
@@ -58,11 +64,16 @@
               <i class="fas fa-trash-can trash"></i>
             </div>
           </div> -->
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
-  <script src="./index.js"></script>
-</body>
-
+      </section>
+    </main>
+    <footer>
+      <span>
+        © 2022 - Made by
+        <a href="https://github.com/eneskaya12" target="_blank">Enes Kaya</a>
+      </span>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
 </html>
