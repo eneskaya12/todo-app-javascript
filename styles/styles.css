@@ -11,6 +11,34 @@ body {
   background-color: #0d1b21;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 35px;
+    color: #FAF3E0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    text-shadow: 0 0 50px #03A062;
+}
+
+header h1:hover{
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    margin: auto;
+    width: 900px;
+    max-width: 100%;
+}
+
 i {
   cursor: pointer;
 }
